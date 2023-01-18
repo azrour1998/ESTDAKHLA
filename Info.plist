@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>DANT</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.dart</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>app</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>whatsapp</string>
+		<string>tel</string>
+		<string>tg</string>
+		<string>signalapp</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>
+		DANT demande l'accès à votre caméra pour les raisons suivantes : 
+		* Obligation légale : Vous permettre de prendre en photo des documents d'identité pour respecter une obligation réglementaire et légale KYC (Know Your Customer)
+		* Obligation légale : Faire les vérifications légales et réglementaires afin de vous identifier en tant que personne physique.
+		* Optionnel : Vous permettre de prendre une photo qui servira de votre avatar sur l'application
+	</string>
+	<key>NSContactsUsageDescription</key>
+	<string> Nécessaire : Vous permettre d'ajouter des participants à votre cercle de financement direcetement depuis votre répertoire. Uniquement les participants que vous aurez ajouté recevront une invitation à vous rejoindre</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string> Optionnel: La fonctionnalité TouchId et FaceId sont utilisées uniquement si activées par vous pour faciliter la connexion à l'application. Ces fonctionnalités sont désactivées par défaut.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string> Obligation légale : L'application a besoin de votre position pour vérifier que vous êtes bien sur le territoire français.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string> Obligation légale : L'application a besoin de votre position pour vérifier que vous êtes bien sur le territoire français.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>
+	DANT is requiring to access your photo libreary for these reasons : 
+		* Obligation légale : Afin de vous permettre de télécharger des documents et photos nécessaires à la vérification réglementaire de votre profil dans le cadre du KYC (Know Your Customer)
+		* Obligation légale : Afin de faire les vérifications réglementaires de votre identité dans le cadre du KYC (Know Your Customer)
+	</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Overpass-Bold.ttf</string>
+		<string>Overpass-ExtraBold.ttf</string>
+		<string>Overpass-ExtraLight.ttf</string>
+		<string>Overpass-Light.ttf</string>
+		<string>Overpass-Regular.ttf</string>
+		<string>Overpass-SemiBold.ttf</string>
+		<string>Overpass-Thin.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>bugsnag</key>
+	<dict>
+		<key>apiKey</key>
+		<string>03b0a7533f50d70d69a42dff1f8665e5</string>
+	</dict>
+</dict>
+</plist>
